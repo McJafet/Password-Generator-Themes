@@ -73,6 +73,7 @@ body {
     height: 550px;
     width: 550px;
     background: var(--background-container-dark);
+    transition: 0.5s;
 }
 
 .title {
