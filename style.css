@@ -84,6 +84,7 @@ body {
     margin-top: 5%;
     margin-bottom: 0;
     letter-spacing: -2.5%;
+    transition: 0.5s;
 }
 
 #section_toggle.active .title {
@@ -94,6 +95,7 @@ body {
     color: var(--color-random-password-dark);
     font-size: 45px;
     font-weight: bolder;
+    transition: 0.5s;
 }
 
 #section_toggle.active .title_decoration {
@@ -105,6 +107,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     width: 80%;
+    transition: 0.5s;
 }
 
 #section_toggle.active .text {
@@ -128,6 +131,7 @@ body {
     height: 1px;
     background: var(--color-line-dark);
     margin-top: calc(10% - 10px);
+    transition: 0.5s;
 }
 
 #section_toggle.active .line {
@@ -158,6 +162,7 @@ body {
     color: var(--color-password-dark);
     font-size: 16px;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 #section_toggle.active .password_text {
