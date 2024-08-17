@@ -63,7 +63,7 @@ body {
 #toggle.active .indicator {
     left: 40px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), inset 0 4px 4px #D5D4D8, inset 0 -4px 4px #ECFDF5;
-    background: linear-gradient(to bottom, #D5D4D8, #ECFDF5);
+    background: linear-gradient(to bottom, #c0bfc4, #d6e6de);
 }
 .container {
     display: flex;
@@ -167,4 +167,53 @@ body {
 
 #section_toggle.active .password_text {
     color: var(--color-password-light);
+}
+
+@media (max-width: 600px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #toggle {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 20px;
+    }
+    #toggle .indicator {
+        width: 20px;
+        height: 20px;
+    }
+    #toggle.active .indicator {
+        left: 20px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .title_decoration {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .generate_password {
+        margin-right: 0;
+    }
+    .line {
+        margin-top: 5%;
+    }
+    .password_container {
+        margin-top: 5%;
+    }
+    .password {
+        height: 30px;
+    }
+    .password_text {
+        font-size: 14px;
+    }
 }
