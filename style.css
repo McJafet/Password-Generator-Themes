@@ -182,15 +182,15 @@ body {
         display: block;
         top: 0;
         right: 0;
-        width: 40px;
-        height: 20px;
+        width: 60px;
+        height: 30px;
     }
     #toggle .indicator {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     #toggle.active .indicator {
-        left: 20px;
+        left: 30px;
     }
     .title {
         font-size: 30px;
